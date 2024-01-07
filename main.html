@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <script defer src="main.js"></script>
+    <title>Your Name - Personal Website</title>
+</head>
+<body>
+    <!-- Welcome Screen -->
+    <div id="welcome-screen">
+        <div id="welcome-header">
+            <h1>Welcome to My Website!</h1>
+            <div id="close-welcome" onclick="closeWelcome()">X</div>
+        </div>
+        <div id="welcome-content">
+            <p>Write many things with ps here.</p>
+        </div>
+    </div>
+
+
+    <!-- Top Bar -->
+    <div id="topbar">
+        <button onclick="scrollToSection('section-about')">About Me</button>
+        <button onclick="scrollToSection('section-projects')">Projects</button>
+        <button onclick="scrollToSection('section-portfolio')">Portfolio</button>
+        <button onclick="scrollToSection('section-fun-facts')">Fun Facts</button>
+        <button onclick="scrollToSection('section-contacts')">Contacts</button>
+    </div>
+
+    <!-- Sidebar -->
+    <div id="sidebar">
+        <!-- Add your sidebar content here -->
+        <p>Your Name</p>
+        <p>Web Developer</p>
+        <!-- Add more information as needed -->
+    </div>
+
+    <!-- Main Sections -->
+    <div id="sections">
+        <section class="section" id="section-about">
+            <h2>About Me</h2>
+            <!-- Add your content about yourself here -->
+        </section>
+
+        <section class="section" id="section-projects">
+            <h2>Projects</h2>
+            <!-- Add information about your projects here -->
+        </section>
+
+        <section class="section" id="section-portfolio">
+            <h2>Portfolio</h2>
+            <!-- Add your portfolio items here -->
+        </section>
+
+        <section class="section" id="section-fun-facts">
+            <h2>Fun Facts</h2>
+            <!-- Add fun facts about yourself here -->
+        </section>
+
+        <section class="section" id="section-contacts">
+            <h2>Contact</h2>
+            <!-- Add your contact information here -->
+        </section>
+    </div>
+</body>
+</html>
